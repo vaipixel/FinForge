@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		196009FD2BB5CE400098ED2C /* DetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196009FC2BB5CE400098ED2C /* DetailScreen.swift */; };
+		196009FF2BB5D0370098ED2C /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196009FE2BB5D0370098ED2C /* HomeScreen.swift */; };
+		19600A022BB5D12E0098ED2C /* BillPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19600A012BB5D12E0098ED2C /* BillPage.swift */; };
+		19600A052BB5D1860098ED2C /* PropertyPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19600A042BB5D1860098ED2C /* PropertyPage.swift */; };
+		19600A082BB5D3800098ED2C /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19600A072BB5D3800098ED2C /* Tabbar.swift */; };
 		19B657BC2BB59C3E0070A39A /* FinForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657BB2BB59C3E0070A39A /* FinForgeApp.swift */; };
 		19B657BE2BB59C3E0070A39A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657BD2BB59C3E0070A39A /* ContentView.swift */; };
 		19B657C02BB59C3E0070A39A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657BF2BB59C3E0070A39A /* Item.swift */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		196009FC2BB5CE400098ED2C /* DetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreen.swift; sourceTree = "<group>"; };
+		196009FE2BB5D0370098ED2C /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		19600A012BB5D12E0098ED2C /* BillPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPage.swift; sourceTree = "<group>"; };
+		19600A042BB5D1860098ED2C /* PropertyPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyPage.swift; sourceTree = "<group>"; };
+		19600A072BB5D3800098ED2C /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
 		19B657B82BB59C3E0070A39A /* FinForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19B657BB2BB59C3E0070A39A /* FinForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinForgeApp.swift; sourceTree = "<group>"; };
 		19B657BD2BB59C3E0070A39A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +83,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		196009FA2BB5CE1B0098ED2C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				196009FB2BB5CE270098ED2C /* Screen */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		196009FB2BB5CE270098ED2C /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				19600A002BB5D04C0098ED2C /* Page */,
+				196009FC2BB5CE400098ED2C /* DetailScreen.swift */,
+				196009FE2BB5D0370098ED2C /* HomeScreen.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		19600A002BB5D04C0098ED2C /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				19600A032BB5D1770098ED2C /* New Group */,
+				19600A012BB5D12E0098ED2C /* BillPage.swift */,
+				19600A042BB5D1860098ED2C /* PropertyPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		19600A032BB5D1770098ED2C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		19600A062BB5D3560098ED2C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				19600A072BB5D3800098ED2C /* Tabbar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		19B657AF2BB59C3E0070A39A = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +149,8 @@
 		19B657BA2BB59C3E0070A39A /* FinForge */ = {
 			isa = PBXGroup;
 			children = (
+				19600A062BB5D3560098ED2C /* Components */,
+				196009FA2BB5CE1B0098ED2C /* UI */,
 				19B657BB2BB59C3E0070A39A /* FinForgeApp.swift */,
 				19B657BD2BB59C3E0070A39A /* ContentView.swift */,
 				19B657BF2BB59C3E0070A39A /* Item.swift */,
@@ -261,7 +316,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				196009FD2BB5CE400098ED2C /* DetailScreen.swift in Sources */,
+				196009FF2BB5D0370098ED2C /* HomeScreen.swift in Sources */,
 				19B657BE2BB59C3E0070A39A /* ContentView.swift in Sources */,
+				19600A082BB5D3800098ED2C /* Tabbar.swift in Sources */,
+				19600A052BB5D1860098ED2C /* PropertyPage.swift in Sources */,
+				19600A022BB5D12E0098ED2C /* BillPage.swift in Sources */,
 				19B657C02BB59C3E0070A39A /* Item.swift in Sources */,
 				19B657BC2BB59C3E0070A39A /* FinForgeApp.swift in Sources */,
 			);
