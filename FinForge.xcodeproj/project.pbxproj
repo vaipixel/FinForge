@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19B657BC2BB59C3E0070A39A /* FinForgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657BB2BB59C3E0070A39A /* FinForgeApp.swift */; };
+		19B657BE2BB59C3E0070A39A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657BD2BB59C3E0070A39A /* ContentView.swift */; };
+		19B657C02BB59C3E0070A39A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657BF2BB59C3E0070A39A /* Item.swift */; };
+		19B657C22BB59C400070A39A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B657C12BB59C400070A39A /* Assets.xcassets */; };
+		19B657C52BB59C400070A39A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B657C42BB59C400070A39A /* Preview Assets.xcassets */; };
+		19B657CF2BB59C410070A39A /* FinForgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657CE2BB59C410070A39A /* FinForgeTests.swift */; };
+		19B657D92BB59C410070A39A /* FinForgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657D82BB59C410070A39A /* FinForgeUITests.swift */; };
+		19B657DB2BB59C410070A39A /* FinForgeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B657DA2BB59C410070A39A /* FinForgeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		19B657CB2BB59C410070A39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B657B02BB59C3E0070A39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B657B72BB59C3E0070A39A;
+			remoteInfo = FinForge;
+		};
+		19B657D52BB59C410070A39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19B657B02BB59C3E0070A39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 19B657B72BB59C3E0070A39A;
+			remoteInfo = FinForge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19B657B82BB59C3E0070A39A /* FinForge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinForge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B657BB2BB59C3E0070A39A /* FinForgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinForgeApp.swift; sourceTree = "<group>"; };
+		19B657BD2BB59C3E0070A39A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		19B657BF2BB59C3E0070A39A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		19B657C12BB59C400070A39A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		19B657C42BB59C400070A39A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		19B657CA2BB59C410070A39A /* FinForgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinForgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B657CE2BB59C410070A39A /* FinForgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinForgeTests.swift; sourceTree = "<group>"; };
+		19B657D42BB59C410070A39A /* FinForgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinForgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B657D82BB59C410070A39A /* FinForgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinForgeUITests.swift; sourceTree = "<group>"; };
+		19B657DA2BB59C410070A39A /* FinForgeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinForgeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19B657B52BB59C3E0070A39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B657C72BB59C410070A39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B657D12BB59C410070A39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19B657AF2BB59C3E0070A39A = {
+			isa = PBXGroup;
+			children = (
+				19B657BA2BB59C3E0070A39A /* FinForge */,
+				19B657CD2BB59C410070A39A /* FinForgeTests */,
+				19B657D72BB59C410070A39A /* FinForgeUITests */,
+				19B657B92BB59C3E0070A39A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		19B657B92BB59C3E0070A39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19B657B82BB59C3E0070A39A /* FinForge.app */,
+				19B657CA2BB59C410070A39A /* FinForgeTests.xctest */,
+				19B657D42BB59C410070A39A /* FinForgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19B657BA2BB59C3E0070A39A /* FinForge */ = {
+			isa = PBXGroup;
+			children = (
+				19B657BB2BB59C3E0070A39A /* FinForgeApp.swift */,
+				19B657BD2BB59C3E0070A39A /* ContentView.swift */,
+				19B657BF2BB59C3E0070A39A /* Item.swift */,
+				19B657C12BB59C400070A39A /* Assets.xcassets */,
+				19B657C32BB59C400070A39A /* Preview Content */,
+			);
+			path = FinForge;
+			sourceTree = "<group>";
+		};
+		19B657C32BB59C400070A39A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				19B657C42BB59C400070A39A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		19B657CD2BB59C410070A39A /* FinForgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				19B657CE2BB59C410070A39A /* FinForgeTests.swift */,
+			);
+			path = FinForgeTests;
+			sourceTree = "<group>";
+		};
+		19B657D72BB59C410070A39A /* FinForgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				19B657D82BB59C410070A39A /* FinForgeUITests.swift */,
+				19B657DA2BB59C410070A39A /* FinForgeUITestsLaunchTests.swift */,
+			);
+			path = FinForgeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		19B657B72BB59C3E0070A39A /* FinForge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B657DE2BB59C410070A39A /* Build configuration list for PBXNativeTarget "FinForge" */;
+			buildPhases = (
+				19B657B42BB59C3E0070A39A /* Sources */,
+				19B657B52BB59C3E0070A39A /* Frameworks */,
+				19B657B62BB59C3E0070A39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinForge;
+			productName = FinForge;
+			productReference = 19B657B82BB59C3E0070A39A /* FinForge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		19B657C92BB59C410070A39A /* FinForgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B657E12BB59C410070A39A /* Build configuration list for PBXNativeTarget "FinForgeTests" */;
+			buildPhases = (
+				19B657C62BB59C410070A39A /* Sources */,
+				19B657C72BB59C410070A39A /* Frameworks */,
+				19B657C82BB59C410070A39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B657CC2BB59C410070A39A /* PBXTargetDependency */,
+			);
+			name = FinForgeTests;
+			productName = FinForgeTests;
+			productReference = 19B657CA2BB59C410070A39A /* FinForgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		19B657D32BB59C410070A39A /* FinForgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19B657E42BB59C410070A39A /* Build configuration list for PBXNativeTarget "FinForgeUITests" */;
+			buildPhases = (
+				19B657D02BB59C410070A39A /* Sources */,
+				19B657D12BB59C410070A39A /* Frameworks */,
+				19B657D22BB59C410070A39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B657D62BB59C410070A39A /* PBXTargetDependency */,
+			);
+			name = FinForgeUITests;
+			productName = FinForgeUITests;
+			productReference = 19B657D42BB59C410070A39A /* FinForgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		19B657B02BB59C3E0070A39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					19B657B72BB59C3E0070A39A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					19B657C92BB59C410070A39A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 19B657B72BB59C3E0070A39A;
+					};
+					19B657D32BB59C410070A39A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 19B657B72BB59C3E0070A39A;
+					};
+				};
+			};
+			buildConfigurationList = 19B657B32BB59C3E0070A39A /* Build configuration list for PBXProject "FinForge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 19B657AF2BB59C3E0070A39A;
+			productRefGroup = 19B657B92BB59C3E0070A39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				19B657B72BB59C3E0070A39A /* FinForge */,
+				19B657C92BB59C410070A39A /* FinForgeTests */,
+				19B657D32BB59C410070A39A /* FinForgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		19B657B62BB59C3E0070A39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B657C52BB59C400070A39A /* Preview Assets.xcassets in Resources */,
+				19B657C22BB59C400070A39A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B657C82BB59C410070A39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B657D22BB59C410070A39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19B657B42BB59C3E0070A39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B657BE2BB59C3E0070A39A /* ContentView.swift in Sources */,
+				19B657C02BB59C3E0070A39A /* Item.swift in Sources */,
+				19B657BC2BB59C3E0070A39A /* FinForgeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B657C62BB59C410070A39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B657CF2BB59C410070A39A /* FinForgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19B657D02BB59C410070A39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B657DB2BB59C410070A39A /* FinForgeUITestsLaunchTests.swift in Sources */,
+				19B657D92BB59C410070A39A /* FinForgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B657CC2BB59C410070A39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B657B72BB59C3E0070A39A /* FinForge */;
+			targetProxy = 19B657CB2BB59C410070A39A /* PBXContainerItemProxy */;
+		};
+		19B657D62BB59C410070A39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 19B657B72BB59C3E0070A39A /* FinForge */;
+			targetProxy = 19B657D52BB59C410070A39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19B657DC2BB59C410070A39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		19B657DD2BB59C410070A39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		19B657DF2BB59C410070A39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinForge/Preview Content\"";
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaipixel.finforge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		19B657E02BB59C410070A39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FinForge/Preview Content\"";
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaipixel.finforge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		19B657E22BB59C410070A39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaipixel.FinForgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinForge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinForge";
+			};
+			name = Debug;
+		};
+		19B657E32BB59C410070A39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaipixel.FinForgeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FinForge.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FinForge";
+			};
+			name = Release;
+		};
+		19B657E52BB59C410070A39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaipixel.FinForgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinForge;
+			};
+			name = Debug;
+		};
+		19B657E62BB59C410070A39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY3SJGH3TH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaipixel.FinForgeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FinForge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		19B657B32BB59C3E0070A39A /* Build configuration list for PBXProject "FinForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B657DC2BB59C410070A39A /* Debug */,
+				19B657DD2BB59C410070A39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B657DE2BB59C410070A39A /* Build configuration list for PBXNativeTarget "FinForge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B657DF2BB59C410070A39A /* Debug */,
+				19B657E02BB59C410070A39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B657E12BB59C410070A39A /* Build configuration list for PBXNativeTarget "FinForgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B657E22BB59C410070A39A /* Debug */,
+				19B657E32BB59C410070A39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		19B657E42BB59C410070A39A /* Build configuration list for PBXNativeTarget "FinForgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19B657E52BB59C410070A39A /* Debug */,
+				19B657E62BB59C410070A39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 19B657B02BB59C3E0070A39A /* Project object */;
+}
